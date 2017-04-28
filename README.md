@@ -1,7 +1,7 @@
 # ChartDemo
 
 
-    //第一象限折线图
+   //第一象限折线图
     JHLineChart *lineChart = [[JHLineChart alloc] initWithFrame:CGRectMake(10, 100, k_MainBoundsWidth-20, 300)  andLineChartType:JHChartLineValueNotForEveryX];
     
     /* X轴的刻度值 可以传入NSString或NSNumber类型  并且数据结构随折线图类型变化而变化 详情看文档或其他象限X轴数据源示例*/
@@ -107,4 +107,4 @@
 示例图如下：
 
 
-![]()
+![](https://github.com/wangdeming/ChartDemo/blob/master/0011.gif)
